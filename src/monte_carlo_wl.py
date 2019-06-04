@@ -1,17 +1,14 @@
 # Wang-Landau sampling
 
-# Ising sample
+# Ising example
 #  https://rajeshrinet.github.io/blog/2014/ising-model/
+# Blume-Capel theory
+#  SILVA, Cláudio José da; CAPARICA, A. A.; PLASCAK, João Antônio.
+#  Wang-landau monte carlo simulation of the blume-capel model. Physical Review E, 2006, 73.3: 036702.
+# and
+# KWAK, Wooseop, et al.
+# First-order phase transition and tricritical scaling behavior of the Blume-Capel model: A Wang-Landau sampling approach. Physical Review E, 2015, 92.2: 022134.
 
-# presentation: start working on it on monday
-
-# Wang-Landau in project 2: check the code0
-
-# bg run python    filename         N   num_runs which function
-# nohup python3.4 monte_carlo_wl.py 10 10000000 1 &
-# nohup python3.4 monte_carlo_wl.py 8 1000000000 2 &
-
-# periodic boundary conditions?
 import numpy as np
 import matplotlib.pyplot as plt
 import random
